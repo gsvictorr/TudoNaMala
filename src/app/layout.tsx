@@ -10,6 +10,12 @@ const league = League_Spartan({ weight: "variable", subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "TudoNaMala",
   description: "Organizando sua viagem perfeita.",
+  icons: {
+    icon: ['/favicon.ico'],
+    shortcut: ['/apple-touch-icon.png'],
+    apple: ['/apple-touch-icon.png']
+  },
+  manifest: '/site.webmanifest'
 };
 
 export default function RootLayout({

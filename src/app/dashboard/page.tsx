@@ -1,6 +1,12 @@
-import Dashboard from "@/components/dashboard"
+import { DashboardMain } from "@/components/dashboard/main";
+import { DashboardNavBar } from "@/components/dashboard/navbar";
 
 export default function DashboardPage() {
-  return <Dashboard logo="/logo.png" />
+  return (
+    <div>
+      <DashboardNavBar />
+      <DashboardMain />
+    </div>
+  );
 }
 
